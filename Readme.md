@@ -1,8 +1,8 @@
 # Личный проект «Седона»
 
 * Студент: [Hardd6969](https://up.htmlacademy.ru/htmlcss/39/user/2430429).
-* Наставник: `Ольга Ветер`.
-
+* Наставник: <a href="https://htmlacademy.ru/profile/id73199">Ольга Ветер</a>.
+* <a href="https://github.com/Hard6969/2430429-sedona-39">Мой проект "Седона"</a>
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
