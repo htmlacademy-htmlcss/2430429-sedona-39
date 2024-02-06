@@ -1,0 +1,26 @@
+body {
+margin: 0;
+  padding: 0;
+}
+.head-navigation{
+  display: flex;
+  list-style: none;
+}
+
+.head-navigation li {
+  margin-left: 10px;
+}
+
+.hero {
+  background-image: url("/img/hero-background.svg");
+  width: 100%;
+  min-height: 485px;
+}
+
+.hero-center {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 458px;
+  height: 352px;
+}
