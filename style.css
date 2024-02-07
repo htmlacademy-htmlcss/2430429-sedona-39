@@ -24,6 +24,11 @@ header{
   list-style: none;
   gap: 8px;
 }
+
+.head-navigation:first-child {
+  margin-left: 0;
+}
+
 .navigation-item {
   font-family: "PT Sans", serif ;
   font-size: 16px;
