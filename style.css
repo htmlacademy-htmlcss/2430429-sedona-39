@@ -1,20 +1,76 @@
 body {
   margin: 0;
   padding: 0;
+  width: 100%;
 }
+header{
+  display: block;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.navbar {
+  width: 1200px;
+  height: 64px;
+  background-color: rgba(255, 255, 255, 1);
+  margin-left: 70px;
+}
+
 .head-navigation{
   display: flex;
   list-style: none;
+  gap: 8px;
+}
+.navigation-item {
+  font-family: "PT Sans", serif ;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  margin: 20px 16px;
+}
+
+.navigation-item a {
+  color: #000000;
+  text-decoration: underline;
+  text-underline-offset: 26px;
 }
 
 .head-navigation li {
   margin-left: 10px;
 }
 
+.header-button {
+  position: relative;
+  float: right;
+  margin-top: -50px;
+  height: 38px;
+  width: 160px;
+  background-color: #756157;
+  margin-right: 70px;
+  border-radius: 4px;
+  color: #fff;
+  font-family: "PT Sans", serif ;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+  border: 0;
+}
+
+.hero-top {
+  width: 100%;
+}
+
 .hero {
   background-image: url("/img/hero-background.svg");
+  background-repeat: no-repeat;
+  background-position: top;
   width: 100%;
-  min-height: 485px;
+  height: 767px;
+  padding-top: 51px;
 }
 
 .hero-center {
@@ -23,4 +79,10 @@ body {
   margin-left: auto;
   width: 458px;
   height: 352px;
+}
+
+.hero-divider {
+  margin-top: 25px;
+  margin-right: auto;
+  margin-left: auto;
 }
