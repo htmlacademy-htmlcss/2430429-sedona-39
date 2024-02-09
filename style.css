@@ -1,64 +1,29 @@
-/* header и hero*/
-
-.logo {
-  position: absolute;
-  width: 138px;
-  height: 64px;
-  float: left;
-  margin-left: 70px;
-  background-color: rgba(255, 255, 255, 1);
-}
-
-.shadow-decor {
-  width: 1200px;
-  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
-  margin: 0 auto;
-  padding: 0;
-}
-
 body {
   margin: 0;
   padding: 0;
   width: 100%;
-  font-family: "PT Sans", serif;
-  font-weight: 400;
 }
 header{
   display: block;
   width: 1200px;
-  height: 831px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 0;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+
 }
 
 .navbar {
-  display: flex;
-  align-content: baseline;
-  align-items: center;
   width: 1200px;
   height: 64px;
   background-color: rgba(255, 255, 255, 1);
-  justify-content: space-between;
-  float: right;
+  margin-left: 70px;
 }
 
 .head-navigation{
   display: flex;
   list-style: none;
   gap: 8px;
-  width: 450px;
 }
-
-.head-navigation:first-child {
-  margin-left: 0;
-}
-
-.user-nav {
-  display: flex;
-  width: 88px;
-}
-
 .navigation-item {
   font-family: "PT Sans", serif ;
   font-size: 16px;
@@ -74,10 +39,13 @@ header{
 }
 
 .head-navigation li {
-  margin-left: 10px;
+  margin-left: 158px;
 }
 
 .header-button {
+  position: relative;
+  float: right;
+  margin-top: -50px;
   height: 38px;
   width: 160px;
   background-color: #756157;
@@ -117,49 +85,4 @@ header{
   margin-top: 25px;
   margin-right: auto;
   margin-left: auto;
-}
-
-.hero-h1 {
-  text-transform: uppercase;
-  font-family: "PT Sans", serif;
-  font-size: 30px;
-  font-weight: 700;
-  line-height: 36px;
-  text-align: center;
-  margin-top: 69px;
-}
-
-.hero-text {
-  text-align: center;
-  font-size: 22px;
-  line-height: 26px;
-}
-
-/*main*/
-
-.main-content {
-  width: 1200px;
-  margin: 0 auto;
-  padding: 0;
-  margin-top: 0px;
-}
-
-.priority-list {
-  display: grid;
-}
-
-.main-h2 {
-  text-transform: uppercase;
-  font-family: "PT Sans", serif;
-  font-size: 30px;
-  font-weight: 700;
-  line-height: 36px;
-  text-align: center;
-  margin-top: 69px;
-}
-
-.main-text {
-  text-align: center;
-  font-size: 22px;
-  line-height: 26px;
 }
