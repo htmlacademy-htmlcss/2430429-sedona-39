@@ -24,20 +24,30 @@ header{
 }
 
 .navbar {
+  display: flex;
+  align-content: baseline;
+  align-items: center;
   width: 1200px;
   height: 64px;
   background-color: rgba(255, 255, 255, 1);
   margin-left: 70px;
+  justify-content: space-between;
 }
 
 .head-navigation{
   display: flex;
   list-style: none;
   gap: 8px;
+  width: 450px;
 }
 
 .head-navigation:first-child {
   margin-left: 0;
+}
+
+.user-nav {
+  display: flex;
+  width: 88px;
 }
 
 .navigation-item {
@@ -59,9 +69,6 @@ header{
 }
 
 .header-button {
-  position: relative;
-  float: right;
-  margin-top: -50px;
   height: 38px;
   width: 160px;
   background-color: #756157;
