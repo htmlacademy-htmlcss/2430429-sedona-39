@@ -1,5 +1,14 @@
 /* header и hero*/
 
+.logo {
+  position: absolute;
+  width: 138px;
+  height: 64px;
+  float: left;
+  margin-left: 70px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
 .shadow-decor {
   width: 1200px;
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
@@ -30,8 +39,8 @@ header{
   width: 1200px;
   height: 64px;
   background-color: rgba(255, 255, 255, 1);
-  margin-left: 70px;
   justify-content: space-between;
+  float: right;
 }
 
 .head-navigation{
@@ -137,4 +146,20 @@ header{
 
 .priority-list {
   display: grid;
+}
+
+.main-h2 {
+  text-transform: uppercase;
+  font-family: "PT Sans", serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  margin-top: 69px;
+}
+
+.main-text {
+  text-align: center;
+  font-size: 22px;
+  line-height: 26px;
 }
