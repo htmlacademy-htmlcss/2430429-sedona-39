@@ -23,6 +23,7 @@ header{
   display: flex;
   list-style: none;
   gap: 8px;
+  margin-right: 158px;
 }
 .navigation-item {
   font-family: "PT Sans", serif ;
